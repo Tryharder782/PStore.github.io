@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+body {
+  font-size: 16px;
+  /* font-family: "Open Sans"; */
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+  color: #fff;
+}
+
+nav {
+  background: #000;
+}
+
+nav .navbar-brand {
+  font-family: Righteous;
+  color: #fff;
+}
+
+nav .container .collapse .navbar-nav {
+  width: 45%;
+}
+
+.wrapper1 {
+  overflow: hidden !important;
+  height: 623px;
+  background: url(../img/home/wr1bg.png);
+  background-size: 100% 100%;
+}
+
+.wrapper1 .left {
+  width: 50%;
+  height: 200px;
+}
+
+.wrapper1 .left .text-box {
+  margin: 40% 0 0 0;
+  width: calc(5/6*100%);
+  height: 100%;
+}
+
+.wrapper1 .left .text-box .title {
+  font-size: 2rem;
+  color: black;
+}
+
+.wrapper1 .left .text-box .subtitle {
+  font-size: 1.25rem;
+  color: rgba(31, 31, 31, 0.6);
+}
+
+.wrapper1 .left .text-box .btn {
+  font-weight: bold;
+  font-size: 0.75rem;
+  font-stretch: ultra-expanded !important;
+  padding: 11px 0;
+  width: 130px;
+  background-color: #400EAB;
+  border-radius: 20px;
+  border: none;
+}
+
+.wrapper1 .left .container {
+  z-index: -3;
+}
+
+.wrapper1 .right img {
+  width: 100%;
+  z-index: -999;
+}
+
+.wrapper2 {
+  padding: 200px 0;
+  z-index: 3 !important;
+  background: url(../img/home/wr2bg.png) no-repeat;
+  background-size: cover !important;
+  background-position: 50% 0;
+}
+
+.wrapper2 .text-box {
+  padding: 17px 0 30px;
+  margin-left: 4px;
+  width: 455px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.wrapper2 .text-box .title {
+  font-weight: light;
+  font-size: 1.25rem;
+  margin-left: 9px;
+}
+
+.wrapper2 .text-box .subtitle {
+  font-weight: light;
+  margin: 20px 0 20px 9px;
+  font-size: 0.75rem;
+}
+
+.wrapper2 .text-box .btn {
+  margin-left: 9px;
+  font-weight: bold;
+  font-size: 0.75rem;
+  font-stretch: ultra-expanded !important;
+  padding: 8px 0;
+  width: 130px;
+  background-color: #400EAB;
+  border-radius: 20px;
+  border: none;
+}
+
+.wrapper3 {
+  padding: 203px 0 154px 0;
+}
+
+.wrapper3 .left {
+  width: 50%;
+  text-align: center !important;
+}
+
+.wrapper3 .left .title {
+  font-weight: light;
+  font-size: 2rem;
+  color: #400EAB;
+}
+
+.wrapper3 .left .subtitle {
+  font-weight: light;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper3 .left .text {
+  font-weight: light;
+  font-size: 0.75rem;
+  color: #000;
+}
+
+.wrapper3 .left img {
+  width: 80.34188%;
+  padding-bottom: 14px;
+}
+
+.wrapper3 .left .btn {
+  width: 80px;
+  background: #400EAB;
+  border-radius: 20px;
+}
+
+.wrapper3 .right {
+  width: 50%;
+  text-align: center !important;
+}
+
+.wrapper3 .right .title {
+  font-weight: light;
+  font-size: 2rem;
+  color: #400EAB;
+}
+
+.wrapper3 .right .subtitle {
+  font-weight: light;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper3 .right .text {
+  font-weight: light;
+  font-size: 0.75rem;
+  color: #000;
+}
+
+.wrapper3 .right img {
+  width: 83.24786%;
+}
+
+.wrapper3 .right .btn {
+  width: 80px;
+  background: #400EAB;
+  border-radius: 20px;
+}
+
+.wrapper4 {
+  padding: 45px 0 70px 0;
+  background: url(../img/home/dualshock.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  text-align: center !important;
+}
+
+.wrapper4 .title {
+  font-size: 3rem;
+  color: #400EAB;
+  border-radius: 20px;
+  font-weight: light !important;
+}
+
+.wrapper4 .subtitle {
+  font-size: 1.5rem;
+  font-weight: light !important;
+}
+
+.wrapper4 .btn {
+  width: 120px;
+  margin: 350px 0 0 0;
+  background: #400EAB;
+  border-radius: 20px;
+}
+
+.wrapper5 {
+  padding: 40px 0 120px 0;
+  background: url(../img/home/dualsense.png) no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.wrapper5 .btn {
+  margin: 360px 0 0 0;
+  background: black;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.page-footer {
+  background: #000;
+  padding: 46px 0 40px;
+  text-align: center;
+}
+
+.page-footer .tel {
+  font-size: 12px;
+  padding: 0;
+}
+
+.page-footer .mail {
+  font-size: 12px;
+  padding: 0;
+}
+
+.page-footer .footer-copyright {
+  font-size: 12px;
+  padding: 0;
+}

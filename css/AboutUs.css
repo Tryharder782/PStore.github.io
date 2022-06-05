@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+  color: #fff;
+}
+
+nav {
+  background: #000;
+}
+nav .navbar-brand {
+  font-family: Righteous;
+  color: #fff;
+}
+nav .container .collapse .navbar-nav {
+  width: 45%;
+}
+
+.wrapper {
+  background: url(../img/about_us_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 30% 15%;
+}
+.wrapper .container {
+  padding: 120px 0;
+}
+.wrapper .row {
+  margin: 0;
+  padding: 86px 0 86px 50px;
+  background: white;
+}
+.wrapper .row .page-header {
+  font-size: 60px;
+  color: #000;
+  font-weight: 100;
+}
+.wrapper .row .logo .circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.page-footer {
+  background: #000;
+  padding: 46px 0 40px;
+  text-align: center;
+}
+.page-footer .tel {
+  font-size: 12px;
+  padding: 0;
+}
+.page-footer .mail {
+  font-size: 12px;
+  padding: 0;
+}
+.page-footer .footer-copyright {
+  font-size: 12px;
+  padding: 0;
+}
